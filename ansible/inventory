@@ -1,0 +1,4 @@
+jenkins ansible_connection=local
+
+[jserver]
+jenkins

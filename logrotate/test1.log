@@ -1,0 +1,15 @@
+2019-01-30 03:56:24 [DEBUG] Initializing JDBC connection parameters for non-RSA mode
+
+2019-01-30 03:56:24 [DEBUG] Retrieving encrypted password from keystore
+
+2019-01-30 03:56:25 [DEBUG] Initializing JDBC connection parameters for non-RSA mode
+
+2019-01-30 03:56:25 [DEBUG] Retrieving encrypted password from keystore
+
+2019-01-30 03:56:28 [DEBUG] Initializing JDBC connection parameters for non-RSA mode
+
+2019-01-30 03:56:28 [DEBUG] Retrieving encrypted password from keystore
+
+2019-01-30 03:56:29 [WARN ] No DailyBalances found for channel SBSA-ZA-073-ZAR-BANK-00010197 and date 2019-01-29
+
+2019-01-30 03:56:29 [DEBUG] Initializing JDBC connection parameters for non-RSA mode

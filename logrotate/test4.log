@@ -1,0 +1,19 @@
+2019-01-30 10:04:21 [INFO ] Message sent to bad message queue 'LME.SPRING.BAD'
+
+2019-01-30 10:41:59 [DEBUG] Initializing JDBC connection parameters for non-RSA mode
+
+2019-01-30 10:41:59 [DEBUG] Retrieving encrypted password from keystore
+
+2019-01-30 10:41:59 [INFO ] Main Channel ID does not exist for given account number, correspondent BIC and currency
+
+2019-01-30 10:41:59 [DEBUG] Initializing JDBC connection parameters for non-RSA mode
+
+2019-01-30 10:41:59 [DEBUG] Retrieving encrypted password from keystore
+
+2019-01-30 10:42:00 [ERROR] ChannelId/BIC look up or SubChannel/BIC lookup failed for : MsgId/PgNb: BCH154884491908144040994e8a041f18b7/ Stmt/PgNb: 1902901218054058/null
+
+2019-01-30 10:42:00 [ERROR] camt.053 message processing failed for message '<?xml version="1.0" encoding="U...'; reason: Invalid balance movement
+
+2019-01-30 10:42:00 [INFO ] Message sent to bad message queue 'LME.SPRING.BAD'
+
+2019-01-30 10:42:07 [DEBUG] Initializing JDBC connection parameters for non-RSA mode

@@ -1,0 +1,41 @@
+2018-08-09 14:45:46 [INFO ] Scheduler meta-data: Quartz Scheduler (v2.2.1-sap-02) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+
+  NOT STARTED.
+
+  Currently in standby mode.
+
+  Number of jobs executed: 0
+
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ 
+
+2018-08-09 14:45:46 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized from the specified file : 'quartz.properties' from the class resource path.
+
+2018-08-09 14:45:46 [INFO ] Quartz scheduler version: 2.2.1-sap-02
+
+2018-08-09 14:45:46 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+2018-08-09 14:45:46 [INFO ] () Quartz scheduler started
+
+2018-08-09 14:45:46 [INFO ] () Listening for commands
+
+2018-08-09 14:45:47 [WARN ] Cannot read configuration for FileSink 'ReleaseHandler.FileSink (Preprocessor)'. Sink will be disabled.
+
+2018-08-09 14:45:47 [WARN ] Cannot read configuration for FileSink 'ReleaseHandler.FileSink (External)'. Sink will be disabled.
+
+2018-08-09 14:45:47 [WARN ] Cannot read configuration for FileSink 'ReleaseHandler.FileSink (Alert)'. Sink will be disabled.
+
+2018-08-09 14:45:47 [ERROR] () Error retrieving channel times
+
+com.aleri.rh.ReleaseHandlerException: Location validation error: Location with id 'LN' does not exist ( i.e. user input is not valid ).
+
+        at com.aleri.rh.scheduler.ChannelData.validateLocation(ChannelData.java:306)
+
+        at com.aleri.rh.scheduler.ChannelData.<init>(ChannelData.java:84)
+
+        at com.aleri.rh.scheduler.ReleaseHandlerScheduler.registerRefillTask(Releas

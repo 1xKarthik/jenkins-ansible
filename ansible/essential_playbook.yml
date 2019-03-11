@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  become: yes
+  gather_facts: yes
+  roles:
+    - common
+    - geerlingguy.java
+    - role: geerlingguy.jenkins
+      vars:
+        jenkins_hostname: localhost
+        jenkins_package_state: latest
+        # jenkins_plugins: ['blueocean']
+        # jenkins_plugins_state: latest
